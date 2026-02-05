@@ -30,7 +30,7 @@ function App() {
           </a>
 
           <a 
-            href="/documentacion.html" 
+            href={process.env.PUBLIC_URL + '/documentacion.html'}
             className="link-text"
           >
             DOCUMENTACION PARCIAL 1
